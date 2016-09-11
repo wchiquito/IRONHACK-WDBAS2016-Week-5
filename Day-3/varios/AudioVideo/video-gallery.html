@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional Bootstrap theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="video-gallery.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand">Video Gallery</h3>
+            <nav>
+              <ul class="nav masthead-nav">
+                <li>
+                  <span id="js-total-time">0</span>s played
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="inner cover">
+          <p>
+            <input id="js-video-url" type="text" placeholder="Insert a video url" value="http://i.istockimg.com/video_passthrough/53475074/153/53475074.mp4"/>
+          </p>
+          <p>
+            <button id="js-add-video">Get video</button>
+          </p>
+
+          <hr/>
+          <h3>Added Videos</h3>
+          <hr/>
+
+          <div id="js-videos">
+            <div id="js-no-videos">
+              No videos added yet
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="video-gallery.js"></script>
+  </body>
+</html>
+
+<!--http://media.istockphoto.com/videos/drone-delivers-a-parcel-in-fron-of-the-house-video-id498731320-->

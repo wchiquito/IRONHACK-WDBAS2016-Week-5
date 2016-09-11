@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+     pre {
+       overflow: scroll;
+       min-height: 150px;
+       border: 2px dashed grey;
+       padding: 20px;
+       border-radius: 5px;
+       background-color: lightgoldenrodyellow;
+       white-space: pre-wrap;
+     }
+
+     textarea {
+       width: 600px;
+       height: 120px;
+       border: 3px solid #cccccc;
+       padding: 5px;
+       font-family: Tahoma, sans-serif;
+       background-position: bottom right;
+       background-repeat: no-repeat;
+     }
+    </style>
+  </head>
+  <body>
+
+    <p>
+      Current characters:
+      <ul id="js-characters-list"></ul>
+    </p>
+
+    <p>
+      <textarea id="js-new-character"></textarea>
+    </p>
+
+    <p>
+      <button id="js-btn">Send Request</button>
+    </p>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

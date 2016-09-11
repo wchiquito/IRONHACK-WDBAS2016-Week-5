@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artists</title>
+  </head>
+  <body>
+    <form action="javascript:searchArtist();">
+      <input type="text" name="search"/>
+      <input type="submit">
+    </form>
+    <h4>Total Artists: <span id="js-total-artist"></span></h4>
+    <table id='js-artist'>
+      <tbody>
+      </tbody>
+    </table>
+    <h4>
+      <a id='js-album-prev' style="display: none;"><<</a> Total Albums: <span id="js-partial-albums"></span> - <span id="js-total-albums"></span> <a id='js-album-next'>>></a>
+    </h4>
+    <table id='js-albums'>
+      <tbody>
+      </tbody>
+    </table>
+    <script src="artist.js"></script>
+  </body>
+</html>
